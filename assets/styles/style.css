@@ -28,7 +28,7 @@ body {
   color: #5E6E80;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.7;
   min-height: 100vh;
   overflow-x: hidden;
@@ -730,7 +730,7 @@ button:focus {
 .header__left {
   display: flex;
   align-items: start;
-  flex: 0 0 50%;
+  flex: 0 0 45%;
   padding-right: 1.875rem;
   position: relative;
 }
@@ -767,7 +767,7 @@ button:focus {
 .header__right {
   display: flex;
   align-items: start;
-  flex: 0 0 50%;
+  flex: 0 0 55%;
   padding-left: 1.875rem;
 }
 .header__right > * {
@@ -883,7 +883,7 @@ button:focus {
 }
 
 .status {
-  font-size: 0.875rem;
+  font-size: 1rem;
   display: inline-flex;
   align-items: center;
   font-weight:bold
@@ -2303,10 +2303,11 @@ button:focus {
   position: relative;
   top: -0.3125rem;
   color: #5b9eff;
+  font-size:20px
 }
 .timeline__period {
   font-weight: bold;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 .timeline__description {
   margin-top: 0.5rem;
